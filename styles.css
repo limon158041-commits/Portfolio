@@ -166,3 +166,19 @@ h2{font-size:clamp(28px,3.4vw,40px);line-height:1.15;font-weight:800}
   .section{padding:72px 0}
   .contact-links a{flex-direction:column;align-items:flex-start;gap:2px}
 }
+
+/* Reviews */
+.rating-pill{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px 16px;transition:border-color .2s}
+.rating-pill:hover{border-color:#cbd5e1}
+.rating-pill b{font-size:20px;color:var(--ink)}
+.rating-pill span{font-size:14px;color:var(--muted)}
+.reviews{columns:3;column-gap:24px}
+.review{break-inside:avoid;margin:0 0 24px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px}
+.stars{color:#f59e0b;font-size:17px;letter-spacing:2px;margin-bottom:12px}
+.review blockquote{margin:0 0 20px;font-size:15px;line-height:1.65;color:var(--text)}
+.review figcaption{display:flex;align-items:center;gap:12px}
+.avatar{width:38px;height:38px;border-radius:50%;background:var(--accent-soft);color:var(--accent-dark);display:grid;place-items:center;font-weight:700}
+.review figcaption b{display:block;font-size:14px;color:var(--ink)}
+.review figcaption small{font-size:13px;color:var(--muted)}
+@media (max-width:960px){.reviews{columns:2}}
+@media (max-width:720px){.reviews{columns:1}}
