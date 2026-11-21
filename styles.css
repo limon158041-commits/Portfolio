@@ -96,6 +96,7 @@ h2{font-size:clamp(28px,3.4vw,40px);line-height:1.15;font-weight:800}
 .tag-powerbi{background:#fef6e0;color:#a16207}
 .tag-looker{background:#e8f0fe;color:#1d4ed8}
 .tag-sheets{background:#e7f6ec;color:#15803d}
+.tag-excel{background:#e3f1ea;color:#107c41}
 .link{font-size:14px;font-weight:600;color:var(--accent);transition:color .2s}
 .link:hover{color:var(--accent-dark);text-decoration:underline;text-underline-offset:3px}
 .more{text-align:center;margin:44px 0 0}
